@@ -1,8 +1,8 @@
-num=10
-text="hello"
-f=10.5
-t=True
-print("num=",num,"type(num)=", type(num))
+zahl=10
+kommazahl=10.5
+text="Hello, World!"
+wahrheitswert=True
+print("zahl=",zahl,"type(zahl)=", type(zahl))
 print("text=",text,"type(text)=", type(text))
-print("f=",f,"type(f)=", type(f))
-print("t=",t,"type(t)=", type(t))
+print("kommazahl=",kommazahl,"type(kommazahl)=", type(kommazahl))
+print("wahrheitswert=",wahrheitswert,"type(wahrheitswert)=", type(wahrheitswert))
