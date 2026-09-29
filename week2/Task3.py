@@ -1,6 +1,6 @@
-original_list = [
-    {'make': 'Google', 'model': 216, 'color': 'Black'},
-    {'make': 'Mi Max', 'model': '2', 'color': 'Gold'},
-    {'make': 'Samsung', 'model': 7, 'color': 'Blue'}
+Dic_list = [
+    {'creator': 'Google', 'model': 216, 'color': 'Black'},
+    {'creator': 'Axford', 'model': '2', 'color': 'Gold'},
+    {'creator': 'Cambridge', 'model': 7, 'color': 'Blue'}
 ]
-print("Task 3:", sorted(original_list, key=lambda x: x['make']))
+print("Task 3:", sorted(Dic_list, key=lambda x: x['creator']))
